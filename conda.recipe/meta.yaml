@@ -92,6 +92,9 @@ test:
     - pyshp
     - scikit-learn
     - sympy
+    - ipywidgets_bokeh >=1.0.0dev2
+    - ipywidgets >=7.5.0
+    - ipyvolume
 
   commands:
     - bokeh -h
