@@ -134,8 +134,7 @@ export class AutocompleteInputView extends TextInputView {
 
         const completions: string[] = []
         for (const text of this.model.completions) {
-          if (text.startsWith(value))
-            completions.push(text)
+          completions.push(text)
         }
 
         this._update_completions(completions)
